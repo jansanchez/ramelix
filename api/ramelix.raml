@@ -1,0 +1,29 @@
+#%RAML 0.8
+title: Frontendlabs API
+version: v2
+baseUri: https://api.frontendlabs.io/{version}
+mediaType:  application/json
+schemas:
+  - token:  schemas/token.json
+documentation:
+  - title: Documentation
+    content: !include docs/documentation.md
+/token: # its fully-resolved URI is https://api.frontendlabs.io/{version}/token
+  displayName: Token
+  post:
+    description: |
+      Create a new resource
+    body:
+      application/json:
+        schema: token
+        example: !include examples/token.json
+    responses:
+      201:
+        description: |
+          Succesfully created a new resource
+        headers:
+          Location:
+            description: |
+              Location of the newly created resource
+            type: string
+            required: false
