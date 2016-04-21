@@ -30,7 +30,7 @@ npm run html
 ### Executing server documentation by port 8000
 
 ```
-npm run server
+npm run doc
 ```
 
 ```
