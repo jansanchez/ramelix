@@ -9,7 +9,7 @@
 var express = require('express');
 var osprey = require('osprey');
 var path = require('path');
-var raml = path.resolve(path.join('api', 'ramlin.raml'));
+var raml = path.resolve(path.join('api', 'ramelix.raml'));
 var router = require('../routes/raml');
 
 var app = express();

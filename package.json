@@ -9,7 +9,7 @@
   "scripts": {
     "start": "node ./bin/www",
     "lint": "xo ./routes/*.js ./bin/www",
-    "html": "raml2html ./api/ramlin.raml > ./public/index.html",
+    "html": "raml2html ./api/ramelix.raml > ./public/index.html",
     "server": "serve ./public/ -p 8000"
   },
   "repository": {
