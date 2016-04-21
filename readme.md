@@ -9,7 +9,7 @@ npm install -d
 
 ## How to use
 
-## Use it from `npm scripts`
+### Use it from `npm scripts`
 
 ### Start API REST Server Dummy by port 3000
 
@@ -42,3 +42,10 @@ http://localhost:8000/
 ```
 npm run lint
 ```
+
+### Executing jscomplex
+
+```
+npm run jscomplex
+```
+
