@@ -1,0 +1,26 @@
+#%RAML 0.8
+title: Frontendlabs
+version: v2
+baseUri: https://api.frontendlabs.io/{version}
+mediaType:  application/json
+schemas:
+  - tokenRequest: !include schemas/token.request.json
+  - tokenResponse: !include schemas/token.response.json
+documentation:
+  - title: Documentation
+    content: !include docs/documentation.md
+/token: # its fully-resolved URI is https://api.frontendlabs.io/{version}/token
+  displayName: Token
+  description: |
+    Generador de token
+  post:
+    description: |
+      Crea un nuevo token
+    body:
+      schema: tokenRequest
+      example: !include ./examples/token.request.json
+    responses:
+      200:
+        body:
+          schema: tokenResponse
+          example: !include ./examples/token.response.json
