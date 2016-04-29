@@ -19,9 +19,9 @@ npm start
 
 ## Testing API
 
-**URL:** http://localhost:3000/token
-**Method:** POST
-**Body:** Raw / JSON (application/json)
+### URL: http://localhost:3000/token
+### Method: POST
+### Body: Raw / JSON (application/json)
 
 ```
 {
