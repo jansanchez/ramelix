@@ -11,6 +11,7 @@
     "lint": "xo ./routes/*.js ./bin/www",
     "html": "raml2html ./api/ramelix.raml > ./public/index.html",
     "jscomplex": "jscomplex \"['./routes/*.js']\"",
+    "predoc": "mkdir -p ./public && npm run html",
     "doc": "serve ./public/ -p 8000"
   },
   "repository": {
