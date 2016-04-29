@@ -17,8 +17,14 @@ npm install -d
 npm start
 ```
 
+**Method:** POST
 ```
-http://localhost:3000/
+http://localhost:3000/token
+```
+
+### Routes file
+```
+/routes/raml.js
 ```
 
 ### Generate html 
