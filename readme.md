@@ -17,10 +17,15 @@ npm install -d
 npm start
 ```
 
+## Testing API
+
 **Method:** POST
 ```
 http://localhost:3000/token
 ```
+
+![post token](docs/images/token.png)
+
 
 ### Routes file
 ```
