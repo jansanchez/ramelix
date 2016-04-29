@@ -1,7 +1,7 @@
 # ramelix
 A RAML configuration demo + osprey
 
-## Install 
+## Install
 
 ```
 npm install -d
@@ -19,9 +19,13 @@ npm start
 
 ## Testing API
 
+**URL:** http://localhost:3000/token
 **Method:** POST
+**Body:** Raw / JSON (application/json)
 ```
-http://localhost:3000/token
+{
+    "device_id": "dsafs7df68a7sdfkjasdjfjya8sdgfhk"
+}
 ```
 
 ![post token](docs/images/token.png)
@@ -32,7 +36,7 @@ http://localhost:3000/token
 /routes/raml.js
 ```
 
-### Generate html 
+### Generate html
 
 ```
 npm run html
@@ -59,4 +63,3 @@ npm run lint
 ```
 npm run jscomplex
 ```
-
