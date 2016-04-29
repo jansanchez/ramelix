@@ -1,6 +1,12 @@
 # ramelix
 A RAML configuration demo + osprey
 
+## Requirements
+
+```
+nodejs version >= 4.2.6
+```
+
 ## Install
 
 ```
