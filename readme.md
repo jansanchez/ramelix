@@ -22,6 +22,7 @@ npm start
 **URL:** http://localhost:3000/token
 **Method:** POST
 **Body:** Raw / JSON (application/json)
+
 ```
 {
     "device_id": "dsafs7df68a7sdfkjasdjfjya8sdgfhk"
